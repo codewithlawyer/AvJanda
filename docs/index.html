@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AvJanda - Avukatlar için Akıllı Müvekkil Yönetimi</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .logo {
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 15px;
+      }
+
+      .subtitle {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+      }
+
+      .cta-button {
+        display: inline-block;
+        background: white;
+        color: #6366f1;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1rem;
+        transition: transform 0.3s ease;
+      }
+
+      .cta-button:hover {
+        transform: translateY(-2px);
+      }
+
+      .content {
+        background: white;
+        border-radius: 20px;
+        padding: 50px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+      }
+
+      .hero-section {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .hero-section h1 {
+        font-size: 2.5rem;
+        color: #6366f1;
+        margin-bottom: 20px;
+      }
+
+      .hero-section p {
+        font-size: 1.2rem;
+        color: #666;
+        margin-bottom: 30px;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin: 50px 0;
+      }
+
+      .feature {
+        background: #f8f9fa;
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+
+      .feature:hover {
+        transform: translateY(-5px);
+      }
+
+      .feature-icon {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+
+      .feature h3 {
+        color: #6366f1;
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+      }
+
+      .feature p {
+        color: #666;
+        line-height: 1.6;
+      }
+
+      .download-section {
+        text-align: center;
+        background: #f8f9fa;
+        padding: 40px;
+        border-radius: 15px;
+        margin-top: 40px;
+      }
+
+      .download-section h2 {
+        color: #6366f1;
+        margin-bottom: 20px;
+      }
+
+      .app-stores {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .store-button {
+        background: #6366f1;
+        color: white;
+        padding: 15px 25px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s ease;
+      }
+
+      .store-button:hover {
+        background: #5a5fdb;
+      }
+
+      .footer {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .footer a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">⚖️ AvJanda</div>
+        <div class="subtitle">Avukatlar için Akıllı Müvekkil Yönetimi</div>
+        <a href="support.html" class="cta-button">📞 Destek Al</a>
+      </div>
+
+      <div class="content">
+        <div class="hero-section">
+          <h1>Avukatların Dijital Asistanı</h1>
+          <p>
+            Müvekkil bilgilerinizi, dosyalarınızı ve randevularınızı tek bir
+            yerden yönetin. AvJanda ile hukuk pratiğinizi dijitalleştirin.
+          </p>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon">👥</div>
+            <h3>Müvekkil Yönetimi</h3>
+            <p>
+              Müvekkil bilgilerini güvenli şekilde saklayın, arayın ve organize
+              edin. İletişim bilgileri, dava detayları ve notlarınızı tek yerden
+              yönetin.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">📁</div>
+            <h3>Dosya Takibi</h3>
+            <p>
+              Dava dosyalarınızı kategorilere ayırın, önemli belgeleri saklayın
+              ve dosya durumlarını takip edin. Hiçbir detayı kaçırmayın.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">📅</div>
+            <h3>Randevu Yönetimi</h3>
+            <p>
+              Duruşma tarihlerini, görüşme randevularını ve önemli tarihleri
+              planlayın. Otomatik hatırlatmalar ile hiçbir randevuyu kaçırmayın.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">💬</div>
+            <h3>Güvenli Mesajlaşma</h3>
+            <p>
+              Müvekkillerinizle güvenli ve şifreli mesajlaşma yapın. Dosya
+              paylaşımı ve grup sohbetleri ile iletişiminizi kolaylaştırın.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">📊</div>
+            <h3>Raporlama</h3>
+            <p>
+              Dava istatistiklerinizi, müvekkil dağılımınızı ve performans
+              metriklerinizi görüntüleyin. Pratiğinizi analiz edin.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">🔒</div>
+            <h3>Güvenlik</h3>
+            <p>
+              End-to-end şifreleme ile verileriniz güvende. Biyometrik kimlik
+              doğrulama ve güvenli yedekleme ile verilerinizi koruyun.
+            </p>
+          </div>
+        </div>
+
+        <div class="download-section">
+          <h2>🚀 Hemen Başlayın</h2>
+          <p>
+            AvJanda'yı indirin ve hukuk pratiğinizi dijitalleştirin. Tamamen
+            ücretsiz!
+          </p>
+
+          <div class="app-stores">
+            <a href="#" class="store-button">📱 App Store'dan İndir</a>
+            <a href="#" class="store-button">🤖 Google Play'den İndir</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 AvJanda. Tüm hakları saklıdır.</p>
+        <p>
+          <a href="support.html">Destek</a> |
+          <a href="#">Gizlilik Politikası</a> |
+          <a href="#">Kullanım Şartları</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
